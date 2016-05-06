@@ -6,5 +6,6 @@ $ ->
   products = $('#products').dataTable
     bProcessing: true
     bServerSide: true
+    iDisplayLength: 25
     sAjaxSource: $('#products').data('source')
 
